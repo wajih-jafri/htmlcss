@@ -1,0 +1,40 @@
+/* uni */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* id slector */
+/* #h1{
+    background-color: black;
+    color: white;
+}
+#h5{
+    background-color: black;
+    color: white;
+} */
+
+/* tag  */
+
+/* h1{
+    background-color: black;
+    color: white;
+} */
+
+/* class slector */
+
+
+.cl1{
+    background-color: rgb(231, 18, 18);
+  
+}
+.cl2{
+background-color: aqua;
+    color: white;
+}
+.cl3{
+    font-size: 50;
+}
+/* h1{
+            background-color: black;
+            color: white;
+        } */
