@@ -1,0 +1,25 @@
+ol {
+  background: rgb(167, 174, 179);
+  padding: 20px;
+}
+
+ol li {
+  background: rgb(255, 225, 238);
+  color: rgb(114, 68, 24);
+  padding: 10px;
+  margin-left: 20px;
+}
+
+ul {
+  background: rgb(9, 68, 76);
+  padding: 20px;
+}
+
+ul li {
+  background: mistyrose;
+  color: darkblue;
+  margin: 5px;
+}
+</style>
+</head>
+<body>
