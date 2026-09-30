@@ -1,13 +1,14 @@
 ol {
-  background: rgb(167, 174, 179);
-  padding: 20px;
+  background: rgb(103, 135, 159);
+  padding:20px;
+  outline: 10px solid rgb(114, 68, 24);
 }
 
 ol li {
-  background: rgb(255, 225, 238);
+  background: rgb(203, 189, 195);
   color: rgb(114, 68, 24);
   padding: 10px;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 ul {

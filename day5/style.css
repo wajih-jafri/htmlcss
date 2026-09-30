@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    color: white;
+
+    background-image: url("car.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* Header */
+
+header {
+    margin: 40px 7%;
+    padding: 30px;
+
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 30px;
+
+    text-align: center;
+}
+
+header b {
+    margin-right: 10px;
+}
+
+header a {
+    background: pink;
+    color: black;
+
+    padding: 15px 15px;
+    margin: 5px;
+
+    text-decoration: none;
+    border-radius: 20px;
+}
+header nav {
+    display: inline-block;
+}
+
+
+/* Main */
+
+main {
+    margin: 50px 7%;
+    width: 350px;
+}
+
+main h1 {
+    font-size: 45px;
+}
+
+main p {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+
+/* Footer */
+
+footer {
+    margin-top: 520px;
+    padding:10px 7%;
+
+    background: rgba(0, 0, 0, 0.75);
+}
+
+footer section {
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer section:first-child {
+    width: 70%;
+    font-size: 18px;
+}
+
+footer h2 {
+    margin: 0;
+}
+
+footer p {
+    font-size: 25px;
+}
+footer b {
+    font-size: 25px;
+}
+
+footer small {
+    color: gray;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    
+}
