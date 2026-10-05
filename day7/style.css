@@ -2,15 +2,10 @@ body {
     margin: 0;
 }
 
-
-/* MAIN */
-
 .main {
     min-height: 100vh;
 }
 
-
-/* NAVBAR */
 
 .nav-top {
     display: flex;
@@ -116,9 +111,6 @@ body {
     color: black;
 }
 
-
-/* 2024/25 BARÇA SECTION */
-
 .history-section {
     height: 600px;
 
@@ -130,9 +122,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
-
-/* INFORMATION BOX */
 
 .info {
     background-color: rgba(24, 23, 51, 0.85);
@@ -154,9 +143,6 @@ body {
     line-height: 1.6;
 }
 
-
-/* TROPHIES */
-
 .trophies-section {
     height: 400px;
 
@@ -172,9 +158,6 @@ body {
 .trophies-section h1 {
     color: #edbb00;
 }
-
-
-/* CONTACT */
 
 .contact-section {
     height: 300px;
