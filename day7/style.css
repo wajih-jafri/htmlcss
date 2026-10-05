@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+}
+
+
+/* MAIN */
+
+.main {
+    min-height: 100vh;
+}
+
+
+/* NAVBAR */
+
+.nav-top {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    top: 15px;
+    z-index: 1;
+}
+
+.nav {
+    background: linear-gradient(to right, #004d98, #a50044);
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    border-radius: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.logo {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.logo img {
+    width: 38px;
+    height: 38px;
+}
+
+.menu {
+    display: flex;
+    column-gap: 10px;
+}
+
+.menu a {
+    background-color: white;
+    color: #181733;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #a50044;
+    color: white;
+}
+
+.menu a:active {
+    background-color: #edbb00;
+    color: black;
+}
+
+.contact {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* HERO */
+
+.hero {
+    height: 100vh;
+    background-image: url("stadium.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 25px;
+}
+
+
+/* BUTTON */
+
+.explore {
+    background-color: #a50044;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.explore:hover {
+    background-color: #edbb00;
+    color: black;
+}
+
+
+/* 2024/25 BARÇA SECTION */
+
+.history-section {
+    height: 600px;
+
+    background-image: url("barca.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* INFORMATION BOX */
+
+.info {
+    background-color: rgba(24, 23, 51, 0.85);
+    color: white;
+
+    width: 60%;
+    padding: 40px;
+
+    text-align: center;
+    border-radius: 20px;
+}
+
+.info h1 {
+    color: #edbb00;
+}
+
+.info p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+/* TROPHIES */
+
+.trophies-section {
+    height: 400px;
+
+    background-color: #181733;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.trophies-section h1 {
+    color: #edbb00;
+}
+
+
+/* CONTACT */
+
+.contact-section {
+    height: 300px;
+
+    background-color: #a50044;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
