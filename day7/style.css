@@ -5,8 +5,6 @@ body {
 .main {
     min-height: 100vh;
 }
-
-
 .nav-top {
     display: flex;
     justify-content: center;
